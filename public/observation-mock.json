@@ -1,0 +1,17 @@
+[
+  { "id": "1", "type": "arugula", "date": "2022-04-30T09:00:00Z", "budQuality": "excellent", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" },
+  { "id": "2", "type": "arugula", "date": "2022-05-07T10:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "average", "photoData": "" },
+  { "id": "3", "type": "arugula", "date": "2022-05-14T11:00:00Z", "budQuality": "average", "stemQuality": "average", "leafQuality": "poor", "overallQuality": "average", "photoData": "" },
+  { "id": "4", "type": "arugula", "date": "2022-05-21T12:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "excellent", "photoData": "" },
+  { "id": "5", "type": "arugula", "date": "2022-05-28T13:00:00Z", "budQuality": "average", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" },
+  { "id": "6", "type": "kale", "date": "2022-04-30T09:00:00Z", "budQuality": "excellent", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" },
+  { "id": "7", "type": "kale", "date": "2022-05-07T10:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "average", "photoData": "" },
+  { "id": "8", "type": "kale", "date": "2022-05-14T11:00:00Z", "budQuality": "average", "stemQuality": "average", "leafQuality": "poor", "overallQuality": "average", "photoData": "" },
+  { "id": "9", "type": "kale", "date": "2022-05-21T12:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "excellent", "photoData": "" },
+  { "id": "10", "type": "kale", "date": "2022-05-28T13:00:00Z", "budQuality": "average", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" },
+  { "id": "11", "type": "basil", "date": "2022-04-30T09:00:00Z", "budQuality": "excellent", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" },
+  { "id": "12", "type": "basil", "date": "2022-05-07T10:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "average", "photoData": "" },
+  { "id": "13", "type": "basil", "date": "2022-05-14T11:00:00Z", "budQuality": "average", "stemQuality": "average", "leafQuality": "poor", "overallQuality": "average", "photoData": "" },
+  { "id": "14", "type": "basil", "date": "2022-05-21T12:00:00Z", "budQuality": "excellent", "stemQuality": "excellent", "leafQuality": "average", "overallQuality": "excellent", "photoData": "" },
+  { "id": "15", "type": "basil", "date": "2022-05-28T13:00:00Z", "budQuality": "average", "stemQuality": "poor", "leafQuality": "poor", "overallQuality": "excellent", "photoData": "" }
+]
