@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   async function getObservations() {
-    const response = await fetch('/observation-mock.json');
+    const response = await fetch('/observation-mock-empty.json');
     if (response.ok) {
       const records: PlantObservation[] = await response.json();
       records.sort((a, b) => a.date.localeCompare(b.date));
@@ -31,7 +31,7 @@ function App() {
   React.useEffect(() => {
     determineFilteredRecords();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filter]);
+  }, [filter, observations]);
 
   function determineFilteredRecords() {
     // Determine filtered records
@@ -63,7 +63,7 @@ function App() {
           <RecordBrowser filter={ filter } setFilter={ setFilter } observations={ filteredObservations } />
         } />
         <Route path='/create' element={
-          <CreateRecord />
+          <CreateRecord setObservations={ setObservations } />
         } />
         <Route path='/test' element={
           <div></div>
