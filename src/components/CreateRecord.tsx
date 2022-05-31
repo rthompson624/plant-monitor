@@ -116,7 +116,7 @@ export function CreateRecord (props: ICreateRecordProps) {
             <option value='excellent'>Excellent</option>
           </select>
         </label>
-        <button onClick={ () => createObservation() } className='mt-5 px-4 py-1 text-sm text-white bg-purple-600 hover:bg-purple-800 border-transparent font-semibold rounded-full border border-purple-200  focus:outline-none'>Submit</button>
+        <button onClick={ () => createObservation() } className='mt-5 px-4 py-1 text-lg text-white bg-purple-600 hover:bg-purple-800 border-transparent font-semibold rounded-full border border-purple-200  focus:outline-none'>Submit</button>
       </div>
     </div>
   );
