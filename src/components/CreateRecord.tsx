@@ -60,10 +60,10 @@ export function CreateRecord (props: ICreateRecordProps) {
       <div className='p-2 mt-5 flex flex-col items-center'>
         { cameraFile
           ?
-            <img className='w-64' src={ window.URL.createObjectURL(cameraFile) } />
+            <img className='w-48' src={ window.URL.createObjectURL(cameraFile) } />
           :
             <label htmlFor='cameraFileInput'>
-              <div className='border-2 rounded-md w-64 h-80 flex flex-col items-center justify-center'>
+              <div className='border-2 rounded-md w-48 h-52 flex flex-col items-center justify-center'>
                 <HiCamera className='text-3xl cursor-pointer' />
               </div>
               <input
